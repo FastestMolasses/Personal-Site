@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'shards-react';
 
+import SideNav from '../components/SideNav';
 import SideBar from '../components/SideBar';
 import SideNewsletter from '../components/SideNewsletter';
 
@@ -17,6 +18,7 @@ export default class HomePage extends React.Component {
                             className="text-center bg-light"
                         >
                             <SideBar />
+                            <SideNav activeTab='Blog' />
                             <SideNewsletter />
                         </Col>
                         <Col className="text-center">BODY</Col>
