@@ -2,13 +2,14 @@ import React from 'react';
 import { Container, Row, Col } from 'shards-react';
 
 import SideBar from '../components/SideBar';
+import SideNewsletter from '../components/SideNewsletter';
 
 export default class HomePage extends React.Component {
     render() {
         return (
-            <div className="bg-dark">
+            <div className="bg-light">
                 <Container>
-                    <Row>
+                    <Row className="pt-5">
                         <Col
                             sm="12"
                             md="12"
@@ -16,8 +17,9 @@ export default class HomePage extends React.Component {
                             className="text-center bg-light"
                         >
                             <SideBar />
+                            <SideNewsletter />
                         </Col>
-                        <Col className="text-center bg-primary">2 / 3</Col>
+                        <Col className="text-center">BODY</Col>
                     </Row>
                 </Container>
             </div>
