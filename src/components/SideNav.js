@@ -7,34 +7,34 @@ export default class SideNav extends React.Component {
         var activeTab = this.props.activeTab;
         console.log(activeTab);
         return (
-            <Nav pills vertical className="py-2">
-                <NavItem>
+            <Nav pills vertical className="nav py-2">
+                <NavItem className="nav-item">
                     <NavLink
-                        className={activeTab === 'Blog' ? 'active' : ''}
+                        className={'nav-link ' + (activeTab === 'Blog' ? 'active' : '')}
                         href="#"
                     >
                         Blog
                     </NavLink>
                 </NavItem>
-                <NavItem>
+                <NavItem className="nav-item">
                     <NavLink
-                        className={activeTab === 'About Me' ? 'active' : ''}
+                        className={'nav-link ' + (activeTab === 'About Me' ? 'active' : '')}
                         href="/"
                     >
                         About Me
                     </NavLink>
                 </NavItem>
-                <NavItem>
+                <NavItem className="nav-item">
                     <NavLink
-                        className={activeTab === 'Book Reviews' ? 'active' : ''}
+                        className={'nav-link ' + (activeTab === 'Book Reviews' ? 'active' : '')}
                         href="/"
                     >
                         Book Reviews
                     </NavLink>
                 </NavItem>
-                <NavItem>
+                <NavItem className="nav-item">
                     <NavLink
-                        className={activeTab === 'Notes' ? 'active' : ''}
+                        className={'nav-link ' + (activeTab === 'Notes' ? 'active' : '')}
                         href="/"
                     >
                         Notes

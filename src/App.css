@@ -4,3 +4,7 @@
     justify-content: flex-start;
     height: 100%;
 }
+
+.fill-height {
+    min-height: 100vh;
+}
