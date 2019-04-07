@@ -31,7 +31,7 @@ export default class TwoPanel extends React.Component {
                                 </a>
                             </p>
                         </Col>
-                        <Col className="text-center ml-5">
+                        <Col className="text-left ml-5">
                             {this.props.children}
                         </Col>
                     </Row>

@@ -18,7 +18,7 @@ export default class SideProfile extends React.Component {
                 </div>
                 <p className="text-left pb-3 text-muted">
                     Computer Science student at CSULB. I blog about Python,
-                    machine learning, auotmation, and more.
+                    machine learning, automation, and more.
                 </p>
             </div>
         );
