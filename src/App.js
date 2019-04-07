@@ -9,6 +9,6 @@ import HomePage from './pages/HomePage';
 
 export default class App extends React.Component {
     render() {
-        return <AboutMe />;
+        return <HomePage />;
     }
 }

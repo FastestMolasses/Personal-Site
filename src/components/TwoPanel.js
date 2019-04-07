@@ -15,7 +15,7 @@ export default class TwoPanel extends React.Component {
                             sm="12"
                             md="4"
                             lg="3"
-                            className="text-center bg-light"
+                            className="text-center bg-light ml-5"
                         >
                             <SideProfile />
                             <SideNav activeTab={this.props.activeTab} />
@@ -26,7 +26,7 @@ export default class TwoPanel extends React.Component {
                                 <br />
                                 Created with React
                                 <br />
-                                <a href="https://github.com/FastestMolasses/Personal-Site">
+                                <a href="https://github.com/FastestMolasses/Personal-Site" target="_blank">
                                     View Source
                                 </a>
                             </p>
