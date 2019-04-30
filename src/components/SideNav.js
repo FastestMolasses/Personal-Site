@@ -10,7 +10,9 @@ export default class SideNav extends React.Component {
             <Nav pills vertical className="nav py-2">
                 <NavItem className="nav-item">
                     <NavLink
-                        className={'nav-link ' + (activeTab === 'Blog' ? 'active' : '')}
+                        className={
+                            'nav-link ' + (activeTab === 'Blog' ? 'active' : '')
+                        }
                         href="#"
                     >
                         Blog
@@ -18,7 +20,10 @@ export default class SideNav extends React.Component {
                 </NavItem>
                 <NavItem className="nav-item">
                     <NavLink
-                        className={'nav-link ' + (activeTab === 'About Me' ? 'active' : '')}
+                        className={
+                            'nav-link ' +
+                            (activeTab === 'About Me' ? 'active' : '')
+                        }
                         href="/"
                     >
                         About Me
@@ -26,7 +31,10 @@ export default class SideNav extends React.Component {
                 </NavItem>
                 <NavItem className="nav-item">
                     <NavLink
-                        className={'nav-link ' + (activeTab === 'Book Reviews' ? 'active' : '')}
+                        className={
+                            'nav-link ' +
+                            (activeTab === 'Book Notes' ? 'active' : '')
+                        }
                         href="/"
                     >
                         Book Reviews
@@ -34,7 +42,10 @@ export default class SideNav extends React.Component {
                 </NavItem>
                 <NavItem className="nav-item">
                     <NavLink
-                        className={'nav-link ' + (activeTab === 'Notes' ? 'active' : '')}
+                        className={
+                            'nav-link ' +
+                            (activeTab === 'School Notes' ? 'active' : '')
+                        }
                         href="/"
                     >
                         Notes

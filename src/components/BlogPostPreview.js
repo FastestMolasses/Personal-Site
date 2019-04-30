@@ -15,8 +15,16 @@ const BlogPostPreview = props => {
 
             {/* ------------------------------------------------------------ */}
 
-            <div style={{ display: 'flex', alignItems: 'center' }}>
-                <h6 style={{ fontWeight: 'bold' }} className="mr-3">
+            <div
+                style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                }}
+            >
+                <h6
+                    style={{ fontWeight: 'bold', alignSelf: 'center' }}
+                    className="mr-3"
+                >
                     {props.date}
                 </h6>
 

@@ -3,10 +3,10 @@ import React from 'react';
 const PostTag = ({ name }) => (
     <p
         style={{
-            backgroundColor: 'skyblue',
+            backgroundColor: '#81c784',
             color: 'white',
             fontWeight: 'bold',
-            padding: '0px 7px',
+            padding: '1px 7px',
         }}
         className="rounded mr-1"
     >
