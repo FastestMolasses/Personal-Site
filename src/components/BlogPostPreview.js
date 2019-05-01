@@ -28,8 +28,8 @@ const BlogPostPreview = props => {
                     {props.date}
                 </h6>
 
-                {props.tags.map(i => {
-                    return <PostTag name={i} />;
+                {props.tags.map((name, index) => {
+                    return <PostTag name={name} key={index.toString()} />;
                 })}
             </div>
             <p style={{ margin: '10px 0px' }}>{props.description}</p>
