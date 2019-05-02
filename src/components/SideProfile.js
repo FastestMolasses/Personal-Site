@@ -12,6 +12,7 @@ export default class SideProfile extends React.Component {
                         display: 'block',
                     }}
                     className="rounded-circle"
+                    alt="What I look like"
                 />
                 <div className="my-3 text-left">
                     <h3>Abe Malla</h3>

@@ -5,10 +5,7 @@ import {
     Card,
     Button,
     CardBody,
-    FormInput,
     InputGroup,
-    InputGroupText,
-    InputGroupAddon,
 } from 'shards-react';
 
 export default class SideNewsletter extends React.Component {

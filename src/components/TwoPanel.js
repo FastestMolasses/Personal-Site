@@ -26,7 +26,11 @@ export default class TwoPanel extends React.Component {
                                 <br />
                                 Created with React
                                 <br />
-                                <a href="https://github.com/FastestMolasses/Personal-Site" target="_blank">
+                                <a
+                                    href="https://github.com/FastestMolasses/Personal-Site"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
                                     View Source
                                 </a>
                             </p>
