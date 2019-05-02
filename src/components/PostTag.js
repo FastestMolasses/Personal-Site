@@ -7,6 +7,7 @@ const PostTag = ({ name }) => (
             color: 'white',
             fontWeight: 'bold',
             padding: '1px 7px',
+            float: 'left',
         }}
         className="rounded mr-1"
     >

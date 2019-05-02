@@ -17,22 +17,23 @@ const BlogPostPreview = props => {
 
             <div
                 style={{
-                    display: 'flex',
-                    alignItems: 'center',
+                    width: '100%',
+                    height: '35px',
                 }}
             >
-                <h6
-                    style={{ fontWeight: 'bold', alignSelf: 'center' }}
-                    className="mr-3"
+                <span
+                    style={{ fontWeight: 'bold', float: 'left', }}
+                    className="mr-2"
                 >
                     {props.date}
-                </h6>
+                </span>
 
                 {props.tags.map((name, index) => {
                     return <PostTag name={name} key={index.toString()} />;
                 })}
             </div>
-            <p style={{ margin: '10px 0px' }}>{props.description}</p>
+
+            <p style={{ marginTop: '7px', }}>{props.description}</p>
 
             {/* ------------------------------------------------------------ */}
 
